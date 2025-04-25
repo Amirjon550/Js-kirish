@@ -1,32 +1,44 @@
-var question1 = prompt("HTMlda sarlavha taglari qaysilar?")
-var question2 = prompt("Inline taglar qaysilar?")
-var question3 = prompt("Span qanday element?")
-var question4 = prompt("Attribute nmalardan tashkil topgan?")
-var question5 = prompt("Css ni HTML ga ulashni necha xil usuli bor?")
-var question6 = prompt("Saytdagi asosiy kontentlarni urtaga olib kursatuvchi element . . .?")
-var question7 = prompt("div va span elementlarining farqi ?")
-var question8 = prompt("HTML da alt atributi qaysi tag bilan iwlatiladi?")
-var question9 = prompt("HTML da input elementi nima uchun ishlatiladi?")
-var question10 = prompt("Flexbox nma uchun ishlatiladi?")
-var question11 = prompt("Mobile-first element deganda nma tushuniladi?")
-var question12 = prompt("Css da padding vazifasi ...")
-var question13 = prompt("HTML da placeholder attributi qayerda ishlatiladi?")
-var question14 = prompt("Css da Box-model qanday qismlardan iborat?")
-var question15 = prompt("CSS Box Modelda box-sizing: border-box; nima qiladi?")
+ //1-Masala
+
+/**var son = prompt("Son kiriting");
+var uzunlik = son.length;
+console.log("Bu son " + uzunlik + " xonali"); **/
 
 
-console.log(question1);
-console.log(question2);
-console.log(question3);
-console.log(question4);
-console.log(question5);
-console.log(question6);
-console.log(question7);
-console.log(question8);
-console.log(question9);
-console.log(question10);
-console.log(question11);
-console.log(question12);
-console.log(question13);
-console.log(question14);
-console.log(question15);
+
+//2-Masala
+
+/**var son = prompt("3 xonali son kiriting");
+var raqam = parseInt(son);
+
+var birlik = raqam % 10;
+var onlik = Math.floor((raqam % 100) / 10);
+var yuzlik = Math.floor(raqam / 100);
+
+var teskari = (birlik * 100) + (onlik * 10) + yuzlik;
+
+console.log("Teskari son: " + teskari); **/
+
+
+
+//3-Masala
+
+/**var son = prompt("Ixtiyoriy son kiriting (max 4 xonali):");
+
+if (son.length <= 4) {
+  var juftmi = (son % 2 === 0) ? "juft" : "toq";
+  alert("Bu " + juftmi + " son. " + son.length + " xonali.");
+} else {
+  alert("4 xonadan oshmagan son kiriting.");
+}**/
+
+
+
+//4-Masala
+             
+/**var x = prompt("1-raqamni kiriting (0-9):");
+var y = prompt("2-raqamni kiriting (0-9):");
+var z = prompt("3-raqamni kiriting (0-9):");
+
+var uchXonali = x + y + z;
+alert("3 xonali son: " + uchXonali);**/
